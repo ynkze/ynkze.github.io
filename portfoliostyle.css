@@ -1,12 +1,18 @@
-#container{
+html, body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 #colorblock{
     position: relative;
     height: 150px;
+    width: auto;
     min-width: 100%;
     min-height: 100%;
+    margin: auto;
 }
 
 #intro {
@@ -18,7 +24,7 @@
 #intro #text {
     position: absolute;
     float: left;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
@@ -39,12 +45,12 @@
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 450px;
+    margin-top: 400px;
 }
 
 .project {
     overflow: hidden;
-    width: 1000px;
+    
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
